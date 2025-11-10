@@ -340,4 +340,15 @@ body {
   50% { transform: scale(1.12); }
   100% { transform: scale(1); }
 }
+/* ЦЕНТРАЛЬНАЯ ПОЛОСА С ЦВЕТОЧНОЙ РАМКОЙ */
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
 
+  border: 16px solid transparent;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADz0lEQVR4nO3dwQ2CQBAEQW3//8uEAg3lXQP6CtHOZr0kWRzF6TicwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/7AgCwzMZQADXgLzCCQCwHOGEAMBNgRkA0BnBhADATYEZANAZwYQAwE2BGQDQBvHuCHn70yfRq/2x9+n5Y9t7Lfz9MDaeuYvX8c86/H13LzfwGcc8+48S8d15tcdOr1xMdfjN2+1ze85IPt9c9+4n2vNac/Xce2zxf6Pn3f/1u6vuZ63ket5HrfR63keteR653o+KKq1r+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lr+5lv+WZ7z+PPvf3z5uX3J7c9X8fd/sRXuqv3Oc5Pj3LX5Mp+8f//9Ms6/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8B3wy8rsAx6H3AAAAAElFTkSuQmCC) 30 round;
+                       }
+  
