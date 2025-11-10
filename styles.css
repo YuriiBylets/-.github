@@ -204,4 +204,56 @@ body {
   border-radius: 15px;
   border: 2px solid #ffb1cb;
   }
-  
+  .wedding-calendar {
+  background: #ffffff;
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 600px;
+  border-radius: 25px;
+  border: 3px solid #ffc1d6;
+  box-shadow: 0px 0px 15px rgba(255, 182, 193, 0.5);
+}
+
+.calendar-box {
+  background: #ffe6ef;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.month {
+  font-size: 26px;
+  font-weight: bold;
+  color: #5b372e;
+  margin-bottom: 10px;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+  color: #5b372e;
+}
+
+.calendar-table th {
+  padding: 5px;
+  color: #a05c6c;
+}
+
+.calendar-table td {
+  padding: 8px;
+}
+
+.wedding-day {
+  background: #ffb6c9;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+  }
+
